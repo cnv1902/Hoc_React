@@ -1,0 +1,108 @@
+Bài 1: Hướng dẫn chi tiết từng bước 🚀
+Chúng ta sẽ chia bài học này thành 3 giai đoạn chính:
+1.	Giai đoạn 1: Cài đặt "Dụng cụ" cần thiết.
+2.	Giai đoạn 2: Tạo dự án React đầu tiên.
+3.	Giai đoạn 3: Chạy và chỉnh sửa dự án.
+________________________________________
+Giai đoạn 1: Cài đặt "Dụng cụ" cần thiết (Node.js và npm)
+Trước khi xây nhà (lập trình React), chúng ta cần có bộ dụng cụ (môi trường phát triển).
+Bước 1: Hiểu Node.js và npm là gì?
+•	Node.js: Hãy tưởng tượng nó như một "động cơ" giúp máy tính của bạn có thể chạy được mã JavaScript ở bên ngoài trình duyệt web. Các công cụ để xây dựng ứng dụng React cần "động cơ" này để hoạt động.
+•	npm (Node Package Manager): Nó giống như một "kho chứa" hoặc "cửa hàng ứng dụng" đi kèm với Node.js. Khi bạn cần một thư viện nào đó (như thư viện React), bạn sẽ dùng npm để tải về và quản lý chúng.
+Bước 2: Tải và cài đặt Node.js
+1.	Truy cập trang web chính thức của Node.js: https://nodejs.org/
+2.	Trên trang chủ, bạn sẽ thấy hai phiên bản để tải. Hãy luôn chọn phiên bản LTS (Long Term Support). Đây là phiên bản ổn định nhất và được khuyên dùng.
+3.	Tải file cài đặt phù hợp với hệ điều hành của bạn (Windows hoặc macOS).
+4.	Mở file bạn vừa tải về. Một cửa sổ cài đặt sẽ hiện ra. Bạn chỉ cần nhấn "Next" liên tục và chấp nhận các điều khoản mặc định cho đến khi quá trình cài đặt hoàn tất.
+Bước 3: Kiểm tra xem đã cài đặt thành công chưa
+Đây là bước quan trọng để đảm bảo mọi thứ đã sẵn sàng.
+1.	Mở "cửa sổ dòng lệnh" trên máy tính của bạn:
+o	Trên Windows: Mở Start Menu, gõ cmd và chọn Command Prompt.
+o	Trên macOS: Mở Launchpad, tìm và chọn ứng dụng Terminal.
+2.	Trong cửa sổ dòng lệnh, gõ lệnh sau rồi nhấn Enter:
+Bash
+node -v
+Nếu màn hình hiện ra một dãy số phiên bản (ví dụ: v20.11.1), có nghĩa là bạn đã cài Node.js thành công.
+3.	Tiếp theo, gõ lệnh này rồi nhấn Enter:
+Bash
+npm -v
+Nếu màn hình hiện ra một dãy số khác (ví dụ: 10.2.4), có nghĩa là npm cũng đã sẵn sàng.
+Chúc mừng! Bạn đã hoàn tất việc cài đặt dụng cụ. Giờ chúng ta sẽ bắt đầu "xây nhà".
+________________________________________
+Giai đoạn 2: Tạo dự án React đầu tiên
+Bước 4: Chọn một nơi để lưu dự án
+1.	Trên máy tính, hãy tạo một thư mục để chứa tất cả các dự án React của bạn sau này. Ví dụ: D:\Hoc_React hoặc Documents/ReactProjects.
+2.	Trong cửa sổ dòng lệnh (Command Prompt/Terminal), sử dụng lệnh cd (change directory) để di chuyển vào thư mục đó.
+o	Ví dụ: cd D:\Hoc_React
+Bước 5: Sử dụng lệnh thần kỳ để tạo dự án
+1.	Bây giờ, khi đã ở đúng thư mục, hãy gõ chính xác lệnh sau vào cửa sổ dòng lệnh và nhấn Enter:
+Bash
+npm create vite@latest my-first-app
+o	Giải thích lệnh:
+	npm:
+Viết tắt của Node Package Manager – công cụ quản lý các gói thư viện trong môi trường Node.js.
+Ở đây, npm được dùng để gọi lệnh tạo dự án mới bằng Vite.
+	create vite@latest:
+Lệnh này bảo npm tải và chạy phiên bản mới nhất (@latest) của gói create-vite.
+Gói này là “bộ khởi tạo” (scaffolding tool) giúp bạn tạo nhanh một dự án front-end (như React, Vue, Svelte, v.v.) sử dụng Vite – công cụ build hiện đại, nhanh hơn rất nhiều so với create-react-app.
+	my-first-app:
+Là tên thư mục dự án sẽ được tạo ra.
+👉 Bạn có thể thay bằng tên khác, chỉ dùng chữ thường, không dấu cách, không ký tự đặc biệt (ví dụ: myapp, react-demo, web-project).
+2.	Quá trình này sẽ mất khoảng vài phút. Công cụ sẽ tự động tải React và tất cả các thư viện cần thiết về. Hãy kiên nhẫn chờ đến khi nó hoàn tất.
+________________________________________
+Giai đoạn 3: Chạy và chỉnh sửa dự án
+Bước 6: Khởi động ứng dụng
+1.	Sau khi lệnh ở Bước 5 chạy xong, cửa sổ dòng lệnh sẽ hướng dẫn bạn.
+Đầu tiên, hãy di chuyển vào thư mục dự án vừa tạo bằng lệnh:
+2.	cd my-first-app
+3.	Cài đặt các thư viện cần thiết (nếu chưa có):
+4.	npm install
+5.	Tiếp theo, hãy khởi động máy chủ phát triển (development server) bằng lệnh:
+6.	npm run dev
+7.	Sau vài giây, màn hình sẽ hiển thị dòng tương tự như sau:
+8.	VITE v5.x  ready in 300 ms
+9.	➜  Local:   http://localhost:5173/
+👉 Hãy nhấn giữ Ctrl và click vào đường link để mở trình duyệt.
+Bạn sẽ thấy trang web mẫu của Vite với dòng chữ "Vite + React" —
+Đây chính là ứng dụng React đầu tiên của bạn! 🎉
+________________________________________
+Bước 7: Mở dự án bằng trình soạn thảo mã (Code Editor)
+1.	Bạn cần một công cụ để xem và chỉnh sửa code. Visual Studio Code (VS Code) là lựa chọn phổ biến và mạnh mẽ nhất.
+Nếu chưa có, tải tại: https://code.visualstudio.com/
+2.	Mở VS Code, chọn menu File → Open Folder..., sau đó tìm và chọn thư mục my-first-app.
+3.	Ở cột bên trái, bạn sẽ thấy toàn bộ cấu trúc thư mục của dự án, ví dụ:
+my-first-app/
+├─ node_modules/
+├─ public/
+├─ src/
+│  ├─ App.jsx
+│  ├─ main.jsx
+└─ index.html
+________________________________________
+Bước 8: Chỉnh sửa “Hello World!”
+1.	Trong VS Code, mở file:
+2.	src/App.jsx
+Đây là component chính của ứng dụng.
+Bên trong bạn sẽ thấy một đoạn mã JSX trông giống HTML.
+Hãy thay toàn bộ nội dung trong phần <div> bằng đoạn sau:
+function App() {
+  return (
+    <div>
+      <h1>Chào bạn, tôi là sinh viên Đại học Vinh!</h1>
+      <p>Đây là ứng dụng React đầu tiên của tôi.</p>
+    </div>
+  )
+}
+export default App
+3.	Nhấn Ctrl + S (hoặc Cmd + S trên macOS) để lưu file lại.
+________________________________________
+Bước 9: Xem kết quả
+Quay trở lại tab trình duyệt đang mở ứng dụng của bạn.
+Vite sẽ tự động làm mới nội dung (hot reload), bạn không cần tải lại trang.
+Bây giờ, bạn sẽ thấy dòng chữ:
+“Chào bạn, tôi là sinh viên Đại học Vinh!”
+“Đây là ứng dụng React đầu tiên của tôi.”
+________________________________________
+🎉 XIN CHÚC MỪNG!
+Bạn đã hoàn thành toàn bộ quy trình — từ khởi tạo, chạy thử đến chỉnh sửa một ứng dụng React sử dụng Vite nhanh và hiện đại.
+
