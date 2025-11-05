@@ -467,3 +467,35 @@ Tuần 11-12: Production Deployment & Maintenance Level: Production
 *   **Yếu (< 5):** Không đạt yêu cầu tối thiểu
 
 **Lưu ý:** Lộ trình có thể điều chỉnh linh hoạt theo năng lực thực tế của từng thực tập sinh
+
+
+Nguyễn Văn Chương: 
+    https://github.com/cnv1902/Hoc_React/issues/4
+    https://github.com/cnv1902/Hoc_React/issues/3
+    https://github.com/cnv1902/Hoc_React/issues/2
+Trần Huy Hoàng: 
+    https://github.com/HyyHoang/Thuc-tap-chuyen-nganh/issues/4
+    https://github.com/HyyHoang/Thuc-tap-chuyen-nganh/issues/3
+    https://github.com/HyyHoang/Thuc-tap-chuyen-nganh/issues/2
+    https://github.com/HyyHoang/Thuc-tap-chuyen-nganh/issues/1
+Đặng Thị Mai Phương: 
+    https://github.com/maiphuong2502/Thuc-tap-chuyen-nganh-/issues/4
+    https://github.com/maiphuong2502/Thuc-tap-chuyen-nganh-/issues/3
+    https://github.com/maiphuong2502/Thuc-tap-chuyen-nganh-/issues/2
+    https://github.com/maiphuong2502/Thuc-tap-chuyen-nganh-/issues/1
+Phạm Duy Thái: 
+    https://github.com/pham-duy-thai/project-tr-c-nghi-m/issues/1
+Nguyễn Quốc Dũng: 
+    https://github.com/qdung0901-prog/ttcn.git
+Phạm Quang Chiến: 
+    https://github.com/pqchien1905/Hoc_Laravel/issues/2
+    https://github.com/pqchien1905/Hoc_Laravel/issues/1
+Mai Thúy Quỳnh: 
+    https://github.com/mtquynh/TT/issues/4
+    https://github.com/mtquynh/TT/issues/3
+    https://github.com/mtquynh/TT/issues/2
+Nguyễn Thế Công: 
+    https://github.com/congntc/laravel-my-project/issues/2
+    https://github.com/congntc/laravel-my-project/issues/1
+Lê Anh Tuấn:
+Nguyễn Quang Ánh: 
